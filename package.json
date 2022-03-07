@@ -1,0 +1,11 @@
+{
+  "name": "nebula",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Protocol for applications with most of their logic on the server",
+  "main": "index.js",
+  "repository": "https://github.com/universe-software/nebula",
+  "author": "Hyperdraw",
+  "license": "LGPL-3.0",
+  "dependencies": {}
+}
