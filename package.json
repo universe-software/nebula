@@ -1,7 +1,7 @@
 {
   "name": "nebula-protocol",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Protocol for applications with most of their logic on the server",
   "main": "index.js",
   "repository": "https://github.com/universe-software/nebula",

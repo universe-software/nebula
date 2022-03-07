@@ -1,5 +1,4 @@
 const Nebula = {}
-console.log(fetch)
 
 Nebula.exec = async function(req, env, params) {
     const method = req['@method'] || 'GET'
