@@ -17,13 +17,13 @@ This module is a client library for the Nebula protocol. It can be installed wit
 ### Installing With NPM
 
 ```
-npm install nebula
+npm install nebula-protocol
 ```
 
 ### Installing With Yarn
 
 ```
-yarn add nebula
+yarn add nebula-protocol
 ```
 
 ### Importing For Browser
@@ -33,7 +33,7 @@ yarn add nebula
 If the importing module is an ES module (`"type": "module"` in `package.json`), you can use an ES import:
 
 ```javascript
-import Nebula from 'nebula'
+import Nebula from 'nebula-protocol'
 ```
 
 #### Using Dynamic Import
@@ -41,7 +41,7 @@ import Nebula from 'nebula'
 If the importing module is CommonJS (no `"type": "module"` in `package.json`), you must use a dynamic import:
 
 ```javascript
-import('nebula').then(({default: Nebula}) => {
+import('nebula-protocol').then(({default: Nebula}) => {
     //... Code that uses Nebula
 })
 ```
@@ -57,7 +57,7 @@ If the importing module is an ES module (`"type": "module"` in `package.json`), 
 ```javascript
 import fetch from 'node-fetch'
 globalThis.fetch = fetch
-import Nebula from 'nebula'
+import Nebula from 'nebula-protocol'
 ```
 
 #### Using Dynamic Import
@@ -67,7 +67,7 @@ If the importing module is CommonJS (no `"type": "module"` in `package.json`), y
 ```javascript
 import('node-fetch').then(({default: fetch}) => {
     globalThis.fetch = fetch
-    import('nebula').then(({default: Nebula}) => {
+    import('nebula-protocol').then(({default: Nebula}) => {
         //... Code that uses Nebula
     })
 })

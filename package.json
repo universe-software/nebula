@@ -1,5 +1,5 @@
 {
-  "name": "nebula",
+  "name": "nebula-protocol",
   "type": "module",
   "version": "0.0.1",
   "description": "Protocol for applications with most of their logic on the server",
